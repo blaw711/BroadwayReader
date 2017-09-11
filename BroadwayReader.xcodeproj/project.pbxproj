@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0530F0D2E4E9A463FE3AB6EF /* Pods_BroadwayReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761E2500D97F6D978189FE57 /* Pods_BroadwayReaderTests.framework */; };
 		5A2462EF1F6721FD00213A22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2462EE1F6721FD00213A22 /* AppDelegate.swift */; };
 		5A2462F11F6721FD00213A22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2462F01F6721FD00213A22 /* ViewController.swift */; };
-		5A2462F41F6721FD00213A22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2462F21F6721FD00213A22 /* Main.storyboard */; };
 		5A2462F61F6721FD00213A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2462F51F6721FD00213A22 /* Assets.xcassets */; };
 		5A2462F91F6721FD00213A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2462F71F6721FD00213A22 /* LaunchScreen.storyboard */; };
 		5A2463041F6721FD00213A22 /* BroadwayReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2463031F6721FD00213A22 /* BroadwayReaderTests.swift */; };
 		5A24630F1F6721FD00213A22 /* BroadwayReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A24630E1F6721FD00213A22 /* BroadwayReaderUITests.swift */; };
+		C5E8CB2D770E12A2177FE76B /* Pods_BroadwayReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F950BC51C4E7676ECF2584A6 /* Pods_BroadwayReaderUITests.framework */; };
+		ED14C089CA7EB52155E8CA0C /* Pods_BroadwayReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABF4473EBE32E1480D43866 /* Pods_BroadwayReader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BE8B7CB024945622FE5C0FA /* Pods-BroadwayReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadwayReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BroadwayReaderUITests/Pods-BroadwayReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50960F6DC894016C9AC9F992 /* Pods-BroadwayReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadwayReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroadwayReaderUITests/Pods-BroadwayReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A2462EB1F6721FD00213A22 /* BroadwayReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroadwayReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2462EE1F6721FD00213A22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2462F01F6721FD00213A22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A2462F31F6721FD00213A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A2462F51F6721FD00213A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2462F81F6721FD00213A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2462FA1F6721FD00213A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		5A24630A1F6721FD00213A22 /* BroadwayReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroadwayReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A24630E1F6721FD00213A22 /* BroadwayReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadwayReaderUITests.swift; sourceTree = "<group>"; };
 		5A2463101F6721FD00213A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E54C9FCA56B2D458E0D29D9 /* Pods-BroadwayReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadwayReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroadwayReaderTests/Pods-BroadwayReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BC247F6226F27C78170D10B /* Pods-BroadwayReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadwayReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroadwayReader/Pods-BroadwayReader.debug.xcconfig"; sourceTree = "<group>"; };
+		761E2500D97F6D978189FE57 /* Pods_BroadwayReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroadwayReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABF4473EBE32E1480D43866 /* Pods_BroadwayReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroadwayReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3E09B91B70DBCA2993B406 /* Pods-BroadwayReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadwayReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-BroadwayReader/Pods-BroadwayReader.release.xcconfig"; sourceTree = "<group>"; };
+		F950BC51C4E7676ECF2584A6 /* Pods_BroadwayReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroadwayReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C23C675C385B00B9E194C8 /* Pods-BroadwayReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadwayReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BroadwayReaderTests/Pods-BroadwayReaderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED14C089CA7EB52155E8CA0C /* Pods_BroadwayReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0530F0D2E4E9A463FE3AB6EF /* Pods_BroadwayReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +80,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E8CB2D770E12A2177FE76B /* Pods_BroadwayReaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30E328820F64A7D22DBF6B28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BC247F6226F27C78170D10B /* Pods-BroadwayReader.debug.xcconfig */,
+				EA3E09B91B70DBCA2993B406 /* Pods-BroadwayReader.release.xcconfig */,
+				5E54C9FCA56B2D458E0D29D9 /* Pods-BroadwayReaderTests.debug.xcconfig */,
+				F9C23C675C385B00B9E194C8 /* Pods-BroadwayReaderTests.release.xcconfig */,
+				50960F6DC894016C9AC9F992 /* Pods-BroadwayReaderUITests.debug.xcconfig */,
+				1BE8B7CB024945622FE5C0FA /* Pods-BroadwayReaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5A2462E21F6721FD00213A22 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				5A2463021F6721FD00213A22 /* BroadwayReaderTests */,
 				5A24630D1F6721FD00213A22 /* BroadwayReaderUITests */,
 				5A2462EC1F6721FD00213A22 /* Products */,
+				30E328820F64A7D22DBF6B28 /* Pods */,
+				DD96B87FE59EB6B7D4BDFD6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +127,6 @@
 			children = (
 				5A2462EE1F6721FD00213A22 /* AppDelegate.swift */,
 				5A2462F01F6721FD00213A22 /* ViewController.swift */,
-				5A2462F21F6721FD00213A22 /* Main.storyboard */,
 				5A2462F51F6721FD00213A22 /* Assets.xcassets */,
 				5A2462F71F6721FD00213A22 /* LaunchScreen.storyboard */,
 				5A2462FA1F6721FD00213A22 /* Info.plist */,
@@ -125,6 +152,16 @@
 			path = BroadwayReaderUITests;
 			sourceTree = "<group>";
 		};
+		DD96B87FE59EB6B7D4BDFD6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABF4473EBE32E1480D43866 /* Pods_BroadwayReader.framework */,
+				761E2500D97F6D978189FE57 /* Pods_BroadwayReaderTests.framework */,
+				F950BC51C4E7676ECF2584A6 /* Pods_BroadwayReaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A2463131F6721FD00213A22 /* Build configuration list for PBXNativeTarget "BroadwayReader" */;
 			buildPhases = (
+				1199F3B53F3FFB43C353B58C /* [CP] Check Pods Manifest.lock */,
 				5A2462E71F6721FD00213A22 /* Sources */,
 				5A2462E81F6721FD00213A22 /* Frameworks */,
 				5A2462E91F6721FD00213A22 /* Resources */,
+				27230B0A6C61446CEC72ED3E /* [CP] Embed Pods Frameworks */,
+				90EE4A7B378024037B811A19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A2463161F6721FD00213A22 /* Build configuration list for PBXNativeTarget "BroadwayReaderTests" */;
 			buildPhases = (
+				FA66C214AFF20803A9735697 /* [CP] Check Pods Manifest.lock */,
 				5A2462FB1F6721FD00213A22 /* Sources */,
 				5A2462FC1F6721FD00213A22 /* Frameworks */,
 				5A2462FD1F6721FD00213A22 /* Resources */,
+				0F2CDF590A02B4FAC8EB0044 /* [CP] Embed Pods Frameworks */,
+				259870E528AB7E1F2F16AA9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A2463191F6721FD00213A22 /* Build configuration list for PBXNativeTarget "BroadwayReaderUITests" */;
 			buildPhases = (
+				3740C611D3DD5EB212E2A8C3 /* [CP] Check Pods Manifest.lock */,
 				5A2463061F6721FD00213A22 /* Sources */,
 				5A2463071F6721FD00213A22 /* Frameworks */,
 				5A2463081F6721FD00213A22 /* Resources */,
+				199592557889C8DA550B64FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +279,6 @@
 			files = (
 				5A2462F91F6721FD00213A22 /* LaunchScreen.storyboard in Resources */,
 				5A2462F61F6721FD00213A22 /* Assets.xcassets in Resources */,
-				5A2462F41F6721FD00213A22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +297,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F2CDF590A02B4FAC8EB0044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroadwayReaderTests/Pods-BroadwayReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1199F3B53F3FFB43C353B58C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		199592557889C8DA550B64FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroadwayReaderUITests/Pods-BroadwayReaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		259870E528AB7E1F2F16AA9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroadwayReaderTests/Pods-BroadwayReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27230B0A6C61446CEC72ED3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroadwayReader/Pods-BroadwayReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3740C611D3DD5EB212E2A8C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90EE4A7B378024037B811A19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroadwayReader/Pods-BroadwayReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA66C214AFF20803A9735697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A2462E71F6721FD00213A22 /* Sources */ = {
@@ -296,14 +463,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5A2462F21F6721FD00213A22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A2462F31F6721FD00213A22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A2462F71F6721FD00213A22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,6 +569,7 @@
 		};
 		5A2463141F6721FD00213A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC247F6226F27C78170D10B /* Pods-BroadwayReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BroadwayReader/Info.plist;
@@ -422,6 +582,7 @@
 		};
 		5A2463151F6721FD00213A22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3E09B91B70DBCA2993B406 /* Pods-BroadwayReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BroadwayReader/Info.plist;
@@ -434,6 +595,7 @@
 		};
 		5A2463171F6721FD00213A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E54C9FCA56B2D458E0D29D9 /* Pods-BroadwayReaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +610,7 @@
 		};
 		5A2463181F6721FD00213A22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C23C675C385B00B9E194C8 /* Pods-BroadwayReaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +625,7 @@
 		};
 		5A24631A1F6721FD00213A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50960F6DC894016C9AC9F992 /* Pods-BroadwayReaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BroadwayReaderUITests/Info.plist;
@@ -475,6 +639,7 @@
 		};
 		5A24631B1F6721FD00213A22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE8B7CB024945622FE5C0FA /* Pods-BroadwayReaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BroadwayReaderUITests/Info.plist;
@@ -505,6 +670,7 @@
 				5A2463151F6721FD00213A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A2463161F6721FD00213A22 /* Build configuration list for PBXNativeTarget "BroadwayReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +679,7 @@
 				5A2463181F6721FD00213A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A2463191F6721FD00213A22 /* Build configuration list for PBXNativeTarget "BroadwayReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +688,7 @@
 				5A24631B1F6721FD00213A22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

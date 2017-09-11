@@ -16,8 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
+    window = UIWindow.init(frame: UIScreen.main.bounds)
+    window?.backgroundColor = UIColor.white
     
+    let tabBarController = UITabBarController.init()
     
+    let textureViewController = ViewController.init(nibName: nil, bundle: nil)
+    let textureNavigationController = UINavigationController.init(rootViewController: textureViewController)
+    
+    tabBarController.viewControllers = [textureNavigationController]
+    
+    window?.rootViewController = tabBarController
+    
+    window?.makeKeyAndVisible()
+
     // Override point for customization after application launch.
     return true
   }
