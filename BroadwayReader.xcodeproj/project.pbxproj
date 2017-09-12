@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		0530F0D2E4E9A463FE3AB6EF /* Pods_BroadwayReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761E2500D97F6D978189FE57 /* Pods_BroadwayReaderTests.framework */; };
 		5A2462EF1F6721FD00213A22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2462EE1F6721FD00213A22 /* AppDelegate.swift */; };
-		5A2462F11F6721FD00213A22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2462F01F6721FD00213A22 /* ViewController.swift */; };
 		5A2462F61F6721FD00213A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2462F51F6721FD00213A22 /* Assets.xcassets */; };
 		5A2462F91F6721FD00213A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2462F71F6721FD00213A22 /* LaunchScreen.storyboard */; };
 		5A2463041F6721FD00213A22 /* BroadwayReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2463031F6721FD00213A22 /* BroadwayReaderTests.swift */; };
 		5A24630F1F6721FD00213A22 /* BroadwayReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A24630E1F6721FD00213A22 /* BroadwayReaderUITests.swift */; };
+		5A2463201F6729BC00213A22 /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A24631F1F6729BC00213A22 /* RSSParser.swift */; };
+		5A2463221F6731C100213A22 /* RSSItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2463211F6731C100213A22 /* RSSItem.swift */; };
+		5A2463261F6739CE00213A22 /* TextureFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2463251F6739CE00213A22 /* TextureFeedViewController.swift */; };
+		5A2463281F67415B00213A22 /* RSSItemCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2463271F67415B00213A22 /* RSSItemCellNode.swift */; };
+		5A24632A1F677BD200213A22 /* RSSItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2463291F677BD200213A22 /* RSSItemViewModel.swift */; };
+		5A24632C1F68550300213A22 /* UIKitFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A24632B1F68550300213A22 /* UIKitFeedViewController.swift */; };
+		5A24632E1F6858D200213A22 /* RSSItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A24632D1F6858D200213A22 /* RSSItemTableViewCell.swift */; };
 		C5E8CB2D770E12A2177FE76B /* Pods_BroadwayReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F950BC51C4E7676ECF2584A6 /* Pods_BroadwayReaderUITests.framework */; };
 		ED14C089CA7EB52155E8CA0C /* Pods_BroadwayReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABF4473EBE32E1480D43866 /* Pods_BroadwayReader.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +46,6 @@
 		50960F6DC894016C9AC9F992 /* Pods-BroadwayReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadwayReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroadwayReaderUITests/Pods-BroadwayReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A2462EB1F6721FD00213A22 /* BroadwayReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroadwayReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2462EE1F6721FD00213A22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A2462F01F6721FD00213A22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A2462F51F6721FD00213A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2462F81F6721FD00213A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2462FA1F6721FD00213A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +55,13 @@
 		5A24630A1F6721FD00213A22 /* BroadwayReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroadwayReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A24630E1F6721FD00213A22 /* BroadwayReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadwayReaderUITests.swift; sourceTree = "<group>"; };
 		5A2463101F6721FD00213A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A24631F1F6729BC00213A22 /* RSSParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSParser.swift; sourceTree = "<group>"; };
+		5A2463211F6731C100213A22 /* RSSItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSItem.swift; sourceTree = "<group>"; };
+		5A2463251F6739CE00213A22 /* TextureFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureFeedViewController.swift; sourceTree = "<group>"; };
+		5A2463271F67415B00213A22 /* RSSItemCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSItemCellNode.swift; sourceTree = "<group>"; };
+		5A2463291F677BD200213A22 /* RSSItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSItemViewModel.swift; sourceTree = "<group>"; };
+		5A24632B1F68550300213A22 /* UIKitFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitFeedViewController.swift; sourceTree = "<group>"; };
+		5A24632D1F6858D200213A22 /* RSSItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSItemTableViewCell.swift; sourceTree = "<group>"; };
 		5E54C9FCA56B2D458E0D29D9 /* Pods-BroadwayReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadwayReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroadwayReaderTests/Pods-BroadwayReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BC247F6226F27C78170D10B /* Pods-BroadwayReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroadwayReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroadwayReader/Pods-BroadwayReader.debug.xcconfig"; sourceTree = "<group>"; };
 		761E2500D97F6D978189FE57 /* Pods_BroadwayReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroadwayReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,7 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				5A2462EE1F6721FD00213A22 /* AppDelegate.swift */,
-				5A2462F01F6721FD00213A22 /* ViewController.swift */,
+				5A24631E1F6727B100213A22 /* Views */,
+				5A24631D1F6727A500213A22 /* Controllers */,
+				5A24631C1F67279B00213A22 /* Models */,
 				5A2462F51F6721FD00213A22 /* Assets.xcassets */,
 				5A2462F71F6721FD00213A22 /* LaunchScreen.storyboard */,
 				5A2462FA1F6721FD00213A22 /* Info.plist */,
@@ -150,6 +164,34 @@
 				5A2463101F6721FD00213A22 /* Info.plist */,
 			);
 			path = BroadwayReaderUITests;
+			sourceTree = "<group>";
+		};
+		5A24631C1F67279B00213A22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A24631F1F6729BC00213A22 /* RSSParser.swift */,
+				5A2463211F6731C100213A22 /* RSSItem.swift */,
+				5A2463291F677BD200213A22 /* RSSItemViewModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5A24631D1F6727A500213A22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A2463251F6739CE00213A22 /* TextureFeedViewController.swift */,
+				5A24632B1F68550300213A22 /* UIKitFeedViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5A24631E1F6727B100213A22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A2463271F67415B00213A22 /* RSSItemCellNode.swift */,
+				5A24632D1F6858D200213A22 /* RSSItemTableViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		DD96B87FE59EB6B7D4BDFD6A /* Frameworks */ = {
@@ -426,8 +468,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2462F11F6721FD00213A22 /* ViewController.swift in Sources */,
+				5A24632E1F6858D200213A22 /* RSSItemTableViewCell.swift in Sources */,
+				5A24632C1F68550300213A22 /* UIKitFeedViewController.swift in Sources */,
+				5A2463201F6729BC00213A22 /* RSSParser.swift in Sources */,
 				5A2462EF1F6721FD00213A22 /* AppDelegate.swift in Sources */,
+				5A2463261F6739CE00213A22 /* TextureFeedViewController.swift in Sources */,
+				5A2463221F6731C100213A22 /* RSSItem.swift in Sources */,
+				5A2463281F67415B00213A22 /* RSSItemCellNode.swift in Sources */,
+				5A24632A1F677BD200213A22 /* RSSItemViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

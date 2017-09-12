@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AsyncDisplayKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,10 +22,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let tabBarController = UITabBarController.init()
     
-    let textureViewController = ViewController.init(nibName: nil, bundle: nil)
-    let textureNavigationController = UINavigationController.init(rootViewController: textureViewController)
+    let textureViewController = TextureFeedViewController.init()
+    let textureNavigationController = ASNavigationController.init(rootViewController: textureViewController)
+    textureNavigationController.tabBarItem = UITabBarItem.init(title: "Texture", image: nil, tag: 0)
     
-    tabBarController.viewControllers = [textureNavigationController]
+    let UIKitViewController = UIKitFeedViewController.init()
+    let UIKitNavigationController = UINavigationController.init(rootViewController: UIKitViewController)
+    UIKitNavigationController.tabBarItem = UITabBarItem.init(title: "UIKit", image: nil, tag: 1)
+    
+    
+    tabBarController.viewControllers = [textureNavigationController, UIKitNavigationController]
     
     window?.rootViewController = tabBarController
     
